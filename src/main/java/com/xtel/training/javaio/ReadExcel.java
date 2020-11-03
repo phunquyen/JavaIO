@@ -25,14 +25,6 @@ public class ReadExcel {
     public static final int COLUMN_INDEX_QUANTITY = 3;
     public static final int COLUMN_INDEX_TOTAL = 4;
 
-//    public static void main(String[] args) throws IOException {
-//        final String excelFilePath = "C:/demo/books.xlsx";
-//        final List<Book> books = readExcel(excelFilePath);
-//        for (Book book : books) {
-//            System.out.println(book);
-//        }
-//    }
-
     public static List<Book> readExcel(String excelFilePath) throws IOException {
         List<Book> listBooks = new ArrayList<>();
 
